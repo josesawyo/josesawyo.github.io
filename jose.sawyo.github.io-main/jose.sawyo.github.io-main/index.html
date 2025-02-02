@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="swd logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Sawyo Designer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Sora', sans-serif; /* Fonte Sora aplicada globalmente */
+        }
+
+        body {
+            background-image: url(2.jpg);
+            height: 100%;
+            background-attachment: fixed;
+            background-size: cover; /* Garante que a imagem cubra todo o fundo */
+            background-position: center; /* Centraliza a imagem */
+        }
+
+        .desgrade {
+            background-color: #ffffff; /* Fundo branco */
+            border: 2px solid #ff9a00; /* Borda amarela */
+            color: #8e32ff; /* Texto e ícones roxos */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            width: 100%;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        .desgrade:hover {
+            transform: scale(1.02);
+        }
+
+        .desgrade span {
+            font-weight: bold; /* Texto em negrito */
+        }
+
+        .desgrade i {
+            color: #8e32ff; /* Ícone roxo */
+            font-size: 1.7em;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .content {
+            height: 100%;
+            max-width: 550px;
+            margin: 0 auto;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            color: aliceblue;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        header img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #8e32ff;
+        }
+
+        header p {
+            font-size: 0.8em;
+            line-height: 1.6;
+            color: #ffffff;
+        }
+
+        section.botoes-links {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        footer {
+            text-align: center;
+            flex-direction: column;
+            gap: 20px;
+            display: flex;
+            padding: 8px 8px;
+            margin-top: 100px;
+        }
+
+        footer li {
+            background-color: #8e32ff;
+            padding: 10px 0;
+            list-style: none;
+            border-radius: 7px;
+        }
+
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .desgrade {
+                padding: 10px 15px;
+                font-size: 0.9em;
+            }
+
+            section.botoes-links {
+                gap: 15px;
+            }
+
+            header p {
+                font-size: 1em; /* Ajuste do tamanho do texto para mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <img src="FT PERFIL.png" alt="Foto de perfil de Jose Sawyo">
+            <h1>SAWYO DESIGNER</h1>
+            <p>Olá, eu sou Jose Sawyo, Designer Gráfico.
+                Desde minha setembro de 2023, mergulhei no design e descoberta paixão por criar criações visuais autênticas 
+                e impactantes.Com um olhar atento às tendências, desenvolvemos comunicações visuais modernas que contam histórias
+                 e conectam marcas ao público. Seja para logotipos, redes sociais ou branding completo, meu objetivo é destacar 
+                 cada cliente no mercado.</p>
+        </header>
+
+        <section class="botoes-links">
+            <a href="https://www.behance.net/saviomendes1" target="_blank" class="link"> 
+                <button class="desgrade">
+                    <span>BEHANCE </span>
+                    <i class="fab fa-behance"></i>
+                </button>
+            </a>
+
+            <a href="https://wa.me/+5588988089709" target="_blank" class="link"> 
+                <button class="desgrade">
+                    <span>WHATSAPP </span>
+                    <i class="fab fa-whatsapp"></i>
+                </button>
+            </a>
+
+            <a href="https://www.instagram.com/sawyo_designer?igsh=MWV6dWJ0Mzk5ZnRveg==" target="_blank" class="link"> 
+                <button class="desgrade">
+                    <span>INSTAGRAM </span>
+                    <i class="fab fa-instagram"></i>
+                </button>
+            </a>
+
+            <a href="https://www.tiktok.com/@js_designer_psd?_t=8j5dBx6lOr8&_r=1" target="_blank" class="link"> 
+                <button class="desgrade">
+                    <span>TIK TOK </span>
+                    <i class="fab fa-tiktok"></i>
+                </button>
+            </a>
+
+            <a href="https://www.facebook.com/sawyo.mendes.12?mibextid=ZbWKwL" target="_blank" class="link"> 
+                <button class="desgrade">
+                    <span>FACEBOOK </span>
+                    <i class="fab fa-facebook"></i>
+                </button>
+            </a>
+
+            <a href="https://pin.it/Uhs0hcrnq" target="_blank" class="link"> 
+                <button class="desgrade">
+                    <span>PINTEREST </span>
+                    <i class="fab fa-pinterest"></i>
+                </button>
+            </a>
+
+            <a href="https://t.me/+1P7QWQG5ImQ0NzJh" target="_blank" class="link"> 
+                <button class="desgrade">
+                    <span>TELEGRAM </span>
+                    <i class="fab fa-telegram"></i>
+                </button>
+            </a>
+        </section>
+
+    </div>
+</body>
+</html>
